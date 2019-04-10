@@ -1,0 +1,59 @@
+.quickViewPopUp{
+   position:fixed;
+   top: 50%;left: 50%;width: 0;height: 0;
+   overflow: hidden;transform: translate(-50%,-50%);
+   transition:all 0.3s ease-in-out;
+   opacity: 0;
+}
+.qvp_show{
+   transition:all 0.3s ease-in-out;overflow: auto;
+   width: 64rem;height: 36rem;z-index: 200;border-radius: 0.4rem;
+   background-color: rgb(255, 255, 255);
+   padding: 2rem 3rem;box-sizing: border-box;opacity: 1;
+   box-shadow: 0 0 4px 8px 0 rgba(0, 0, 0, 0.479);
+   .qv_CloseBtn{
+      position:absolute;
+      top:1rem;
+      right: 1rem;
+      height: 1rem;
+      width: 1rem;
+      cursor: pointer;
+   }
+   .qv_post{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+   }
+   .qvImages{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-gap: 0.2rem;
+      img{
+         width: 100%;
+         padding: 0.2rem;
+         max-height: 24rem;
+         cursor: pointer;
+         object-fit: cover;
+         object-position: center;
+         border: 1.5px solid rgb(214, 214, 214);
+         border-radius: 0.2rem;
+      }
+      img:first-child{
+         grid-column: 1/5;
+      }
+   }
+   .qvDetails{
+      color: $grey800;
+      margin-left: 1rem;
+      h2{
+         font-weight: 500;
+         margin-bottom: 1rem;
+      }
+      .price{
+         font-family: Roboto;
+         margin-bottom: 1rem;
+      }
+      p:last-child{
+         margin-top: 1rem;
+      }
+   }
+}

@@ -1,0 +1,74 @@
+#header{
+   background-color: $grey50;
+   min-height: 3.8rem;
+   box-shadow: 0 8px 8px 0 rgb(233, 233, 233);
+   overflow: hidden;
+   display: grid;
+   grid-template-columns: 4.5rem 8rem auto 12rem;
+   width: calc(100% - 14rem);
+   transition: width 0.3s ease-in-out;
+   position: relative;
+   float: right;
+   box-sizing: border-box;
+   h1{
+      margin-top: 1rem;
+      font-weight: 400;
+      color: $grey800;
+      font-size: 1.6em;
+   }
+   img{
+      margin-left: 1rem;
+      height: 2.8rem;
+      margin-top: 0.5rem;
+   }
+   .search-box{
+      padding: 10px;
+      padding-top: 13px;
+      width: auto;
+      z-index: 95;
+      .se-bo{
+         display: grid;
+         grid-template-columns: 28px auto;
+         border: 1.5px solid #eeeeee;
+         border-radius: 2rem;
+         padding: 0.15rem;
+         padding-left: 0.25rem;
+         padding-right: 1rem;
+       }
+       .se-bo input{
+         background-color: transparent;
+       }
+       .se-icon{
+         border-radius: 2rem;
+         height: 28px;
+         padding: 5px;
+         background-color: #e9e9e9;
+         cursor: pointer;
+       }
+       .se-icon:hover{
+         background-color: #c4c4c4;
+       }
+       .se-icon i{
+         color: $grey600;
+       }
+       .se-bo input{
+         border: none;
+         padding-left: 0.8rem;
+         font-size: 1em;
+       }
+   }
+   .cre_noti{
+      padding-top: 0.9rem;
+      padding-left: 0.5rem;
+      i{
+         color: $grey800;
+         cursor: pointer;
+      }
+      button{
+         @extend %def_button;
+      }
+      button:hover{
+         opacity: 0.8;
+      }
+   }
+}
