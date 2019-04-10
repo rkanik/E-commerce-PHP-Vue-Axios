@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.384" height="24.026" viewBox="0 0 24.384 24.026">
+   <defs>
+      <style>
+         .a {
+            fill: #757575;
+         }
+      </style>
+   </defs>
+   <g transform="translate(-59.808 -64.154)">
+      <rect class="a" width="30" height="3" rx="1.5" transform="matrix(0.695, -0.719, 0.719, 0.695, 60.861, 86.095)" />
+      <rect class="a" width="31" height="3" rx="1.5" transform="matrix(0.719, 0.695, -0.695, 0.719, 61.892, 64.154)" />
+   </g>
+</svg>

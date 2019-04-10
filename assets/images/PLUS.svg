@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+   <defs>
+      <style>
+         .a {
+            fill: #fff;
+         }
+      </style>
+   </defs>
+   <g transform="translate(-58 -60.5)">
+      <rect class="a" width="30" height="3" rx="1.5" transform="translate(58 75)" />
+      <rect class="a" width="30" height="3" rx="1.5" transform="translate(74.5 60.5) rotate(90)" />
+   </g>
+</svg>
